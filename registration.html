@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Ducks | Registration Form</title>
+     <!--<link rel="stylesheet" href="./Styles/mdhl_1.css">-->
+     <link rel="stylesheet" href="./Styles/mdhl_3.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+     <!--<link rel="stylesheet" href="./Styles/mdhl_2.css">-->
+</head>
+<body>
+    
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>    
+        <img src="./Styles/LogoMightyducks-01.png" alt="Logo" class="logo" >
+    </header>
+    <div>
+        <h2 class="events">Registration Form</h2>
+        </div>
+        <nav>
+            <a href="index.html">🏠Home</a>
+            
+            <a href="about.html">🏒About MHDL</a>
+            
+            <a href="contact.html">☎Contact</a>
+    
+            <a href="rule.html">📏Rules</a>
+    
+            <a href="gameinfo.html">🎮Game Info</a>
+
+            <a href="#">📄Register</a>
+        </nav>
+    <main>
+        <form action="show_data.html" method="get">
+
+            <fieldset>
+                <label>Player’s First Name:
+                    <input type="text" name="first_name">
+                </label>
+
+                <label>Last Name:
+                    <input type="text" name="last_name">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>Street Address:
+                    <input type="text" name="street_address">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>City:
+                    <input type="text" name="city">
+                </label>
+
+                <label>Zip Code:
+                    <input type="text" name="zip_code">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>Birth Date(mm/dd/yyyy):
+                    <input type="date" name="birth_date">
+                </label>
+
+                <label>Gender: Female
+                    <input type="radio" name="gender" value="Female">
+                </label>
+                <label >Male 
+                    <input type="radio" name="gender" value="Male">
+                </label>
+            </fieldset>
+            <fieldset>
+                
+                <label>Grade: 
+                    <input type="radio" name="grade" value="Pre-school"> Pre-school
+                </label>
+                <label id="numbers1">
+                    <input type="radio" name="grade" value="1st" > 1st
+                </label>
+                <label id="numbers2">
+                    <input type="radio" name="grade" value="2nd">2nd
+                </label>
+                <label id="numbers3">
+                    <input type="radio" name="grade" value="3rd"> 3rd
+                </label>
+                <label id="numbers4">
+                    <input type="radio" name="grade" value="4th"> 4th
+                </label>
+                <label id="numbers5">
+                    <input type="radio" name="grade" value="5th"> 5th
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Closest School:</legend>
+                <label>
+                    <select name="school" id="select-school">
+                        <option value="">--Choose an option--</option>
+                        <option value="AJ Katzenmaier">AJ Katzenmaier"</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+                    
+                </label>    
+            </fieldset>
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label>
+                    <input type="checkbox" name="position" value="Forward"> Forward</label>
+                    <label style="margin-left: 4vw;"> <input type="checkbox" name="position" value="Midfield"> Midfield
+                </label> 
+                </fieldset>
+    
+                <fieldset>
+                    <label>
+                        <input type="checkbox" name="position" value="Defense"> Defense</label>
+                        <label style="margin-left: 4vw;"> <input type="checkbox" name="position" value="Goalkeeper"> Goalkeeper
+                    </label> 
+                </fieldset>
+                
+                
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+                    <label>
+                        <input type="radio" name="size" value="Youth Small"> Youth Small</label>
+                        <label style="margin-left: 3vw;"> <input type="radio" name="size" value="Medium"> Medium
+                    </label> 
+                </fieldset>
+
+                <fieldset>
+                    <label>
+                        <input type="radio" name="size" value="Youth Medium"> Youth Medium</label>
+                        <label style="margin-left: 3vw;"> <input type="radio" name="size" value="Large"> Large
+                    </label> 
+                </fieldset>
+
+                <fieldset>
+                    <label>
+                        <input type="radio" name="size" value="Youth Large"> Youth Large</label>
+                        <label style="margin-left: 3vw;"> <input type="radio" name="size" value="Extra Large"> Extra Large
+                    </label> 
+                </fieldset>
+
+                <fieldset>
+                    <label>
+                        <input type="radio" name="size" value="Small"> Small
+                    </label>      
+                </fieldset>
+
+                <fieldset>
+                    <legend> Permission to Play</legend>
+                    <p class="form">I, the parent or guardian of the minor registrant,
+                        agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League(MDHL).
+                        In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" 
+                        accepting the registrant for its hockey programs and acitivities, i hereby release, discharge, and/or otherwise indemnify 
+                        MDHL, their employees and associated personnel and volunteers, including the facilities used for pracitces and games,
+                        against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing 
+                        transported to or from MDHÑ sponsored activities, wich transportation.<br>
+                        By entering your name below, I herebyagree andauthorizethe above.In addition, by signing below, also acknowledge that i have read 
+                        the cancellation policy and agree to its terms.
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <label>Parent/Guardian Name:</label>
+                    <input type="text" name="Signature">
+                </fieldset>
+                <fieldset>
+                    <label>Date:<input type="text" name="Date"></label>
+                </fieldset>
+
+            <input type="submit" value="Submit" style="width: 30%;" id="submit">
+        </form>
+    </main>
+
+<footer>
+<div>
+    Lautaro Sakihara 2022
+</div>
+</footer>
+</body>
+</html>
